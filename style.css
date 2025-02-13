@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: "Almendra", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.icon{ text-decoration: none; color: antiquewhite; font-size:25
+     ;
+
+}
+.nav-items{
+    list-style-type: none; display: flex; 
+    gap: 25px; color:white; font-style: normal;
+    font-style: unset;
+    
+    
+}
+ .navbar{display: flex;
+    justify-content: space-around;
+    align-items:end;
+    padding: 15px;
+    
+}
+
+
+.header-bg{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)) ,url(images/back\ travel.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    height: 70vh;  
+
+}
+.header-text{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 60vh;
+   color: aliceblue;
+   flex-direction: column;
+    
+}
+
+button{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+   
+}
+
+.header-text h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.forms{
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,228,233,1) 100%);
+display: flex;
+justify-content: center;
+height: 20vh;
+align-items: center;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+    margin: 3vh;
+}
+
+input, select {
+padding: 6px;
+}
+
+label{
+    text-transform: uppercase;
+}
+
+
+.t1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 20px;
+    background-size: contain;
+}
+
+.t0{display: flex;
+    justify-content: center;
+    margin: 50px;
+    gap: 30px;
+    background-size: contain;
+    
+
+}
+
+.t2{
+    background-image: url(images/pic\ 2.jpg);
+    background-size: cover;
+    height: 60vh;
+    width: 20vw;
+    background-position: right;
+    font-size: large;
+    color: antiquewhite;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-direction: column;
+
+
+}
+
+.t3{
+    background-image:url(images/pic\ 3.jpg);
+    background-size: cover;
+    width: 30vw;
+    height: 60vh;
+    background-position: center;
+    font-size: large;
+    color: antiquewhite;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+height: 90vh; 
+flex-direction:row;
+gap: inherit;
+
+}
+
+.t4{background-image: url(images/pic\ 1.jpg);
+    background-size: cover;
+width: 20vw;
+background-position:contain;
+font-size: large;
+color: antiquewhite;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+height: 90vh;
+flex-direction: column;
+gap: inherit;
+
+
+}
+   
+
+.b1{
+    display: flex;
+    justify-content: center;
+    border: 10px;
+    align-items: center;
+}
+
+.b2{
+    display: flex;
+    justify-content: center;
+    padding: 90px;
+    border-radius: 10px;
+}
+
+.b3{
+    display: flex;
+    justify-content: center;
+    padding: 90px;
+    border-radius: 10px;
+
+}
+
+.down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+}
+
+.b4{
+    display: flex;
+    justify-content: center;
+    padding: 90px;
+    border-radius: 10px;
+}
+    
+.bg{
+    background-color: rgb(0, 187, 255);
+}
+
+.inner{
+    border-style: inset;
+    border-color: bisque;
+    background-color:mediumslateblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    margin: auto;
+    width: 50vw;
+}

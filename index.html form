@@ -1,0 +1,39 @@
+
+<form action="" class="forms">
+        <div  class="input-field">
+            <label for="destination">destination</label>
+            <input type="text" name="destination" id="" placeholder="Enter your city">
+        </div>
+        
+        <div  class="input-field">
+            <label for="check-in">check out</label>
+            <input type="date" name="check-in" id="">
+        </div>
+    
+        <div  class="input-field">
+            <label for="check-out">check in</label>
+            <input type="date" name="check-out" id="">
+        </div>
+    
+        <div  class="input-field">
+            <label for="adult">adult</label>
+            <select name="adults" id="">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>  
+        </div>
+    
+        <div class="input-field">
+            <label for="children">children</label>
+            <select name="children" id="">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+        </div>
+     </form> 
+ 
